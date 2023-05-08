@@ -1,4 +1,4 @@
-From maven:latest
+From maven:ibmjava
 WORKDIR /app
 COPY . /app
 RUN cd /app && mvn clean install -Dskiptests
